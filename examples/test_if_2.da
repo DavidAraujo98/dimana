@@ -1,0 +1,13 @@
+integer i = 0;
+string u = "hello";
+
+if(i == 0) then
+    writeln "here";
+fi;
+
+if (i == 1) then
+    writeln "here too";
+elif if(u == "hello")  then
+        writeln "there";
+    fi;
+fi;

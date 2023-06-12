@@ -1,0 +1,16 @@
+
+use "dimensions.da";
+
+Length distance1 = 50*mmeter;
+Length distance2 = 3*cmeter;
+Length distance3 = distance1+distance2;
+Length distance4 = distance1-distance2;
+Length distance5 = distance1*distance2;
+Length distance6 = distance1/distance2;
+Length distance7 = distance1%distance2;
+
+integer a = 4;
+integer b = 10;
+integer c = b%a;
+
+Length dis8 = 5*meter - 5*cmeter;

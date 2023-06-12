@@ -1,0 +1,120 @@
+<svg width="1777.6000000000001" height="812.9000000000001" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><line x1="306.5" y1="7.0" x2="155.5" y2="31.0" style="stroke:black; stroke-width:1px;" />
+<line x1="155.5" y1="38.0" x2="143.25" y2="62.0" style="stroke:black; stroke-width:1px;" />
+<line x1="143.25" y1="69.0" x2="143.25" y2="93.0" style="stroke:black; stroke-width:1px;" />
+<line x1="143.25" y1="100.0" x2="31.5" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="143.25" y1="100.0" x2="107.0" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="107.0" y1="131.0" x2="107.0" y2="155.0" style="stroke:black; stroke-width:1px;" />
+<line x1="143.25" y1="100.0" x2="169.0" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="143.25" y1="100.0" x2="198.0" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="143.25" y1="100.0" x2="226.5" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="143.25" y1="100.0" x2="255.0" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="155.5" y1="38.0" x2="167.75" y2="62.0" style="stroke:black; stroke-width:1px;" />
+<line x1="306.5" y1="7.0" x2="415.5" y2="31.0" style="stroke:black; stroke-width:1px;" />
+<line x1="415.5" y1="38.0" x2="403.25" y2="62.0" style="stroke:black; stroke-width:1px;" />
+<line x1="403.25" y1="69.0" x2="403.25" y2="93.0" style="stroke:black; stroke-width:1px;" />
+<line x1="403.25" y1="100.0" x2="297.5" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="403.25" y1="100.0" x2="373.0" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="373.0" y1="131.0" x2="373.0" y2="155.0" style="stroke:black; stroke-width:1px;" />
+<line x1="403.25" y1="100.0" x2="436.5" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="403.25" y1="100.0" x2="467.0" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="403.25" y1="100.0" x2="488.0" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="403.25" y1="100.0" x2="509.0" y2="124.0" style="stroke:black; stroke-width:1px;" />
+<line x1="415.5" y1="38.0" x2="427.75" y2="62.0" style="stroke:black; stroke-width:1px;" />
+<line x1="306.5" y1="7.0" x2="457.5" y2="31.0" style="stroke:black; stroke-width:1px;" />
+<rect x="85.0" y="155.0" width="44.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="87" y="164" style="font-family:sans-serif;font-size:10px;">
+integer
+</text>
+<rect x="129.75" y="62.0" width="27.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="131" y="71" style="font-family:sans-serif;font-size:10px;">
+decl
+</text>
+<rect x="194.0" y="124.0" width="8.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="196" y="133" style="font-family:sans-serif;font-size:10px;">
+[
+</text>
+<rect x="336.0" y="124.0" width="74.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="338" y="133" style="font-family:sans-serif;font-size:10px;">
+numerictype
+</text>
+<rect x="280.0" y="0.0" width="53.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="282" y="9" style="font-family:sans-serif;font-size:10px;">
+program
+</text>
+<rect x="142.5" y="31.0" width="26.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="144" y="40" style="font-family:sans-serif;font-size:10px;">
+stat
+</text>
+<rect x="423.75" y="62.0" width="8.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="425" y="71" style="font-family:sans-serif;font-size:10px;">
+;
+</text>
+<rect x="126.25" y="93.0" width="34.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="128" y="102" style="font-family:sans-serif;font-size:10px;">
+class
+</text>
+<rect x="417.0" y="124.0" width="39.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="419" y="133" style="font-family:sans-serif;font-size:10px;">
+Grade
+</text>
+<rect x="389.75" y="62.0" width="27.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="391" y="71" style="font-family:sans-serif;font-size:10px;">
+decl
+</text>
+<rect x="163.75" y="62.0" width="8.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="165" y="71" style="font-family:sans-serif;font-size:10px;">
+;
+</text>
+<rect x="435.5" y="31.0" width="44.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="437" y="40" style="font-family:sans-serif;font-size:10px;">
+&lt;EOF&gt;
+</text>
+<rect x="266.0" y="124.0" width="63.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="268" y="133" style="font-family:sans-serif;font-size:10px;">
+dimension
+</text>
+<rect x="209.0" y="124.0" width="35.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="211" y="133" style="font-family:sans-serif;font-size:10px;">
+nmec
+</text>
+<rect x="386.25" y="93.0" width="34.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="388" y="102" style="font-family:sans-serif;font-size:10px;">
+class
+</text>
+<rect x="360.0" y="155.0" width="26.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="362" y="164" style="font-family:sans-serif;font-size:10px;">
+real
+</text>
+<rect x="251.0" y="124.0" width="8.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="253" y="133" style="font-family:sans-serif;font-size:10px;">
+]
+</text>
+<rect x="463.0" y="124.0" width="8.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="465" y="133" style="font-family:sans-serif;font-size:10px;">
+[
+</text>
+<rect x="70.0" y="124.0" width="74.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="72" y="133" style="font-family:sans-serif;font-size:10px;">
+numerictype
+</text>
+<rect x="505.0" y="124.0" width="8.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="507" y="133" style="font-family:sans-serif;font-size:10px;">
+]
+</text>
+<rect x="478.0" y="124.0" width="20.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="480" y="133" style="font-family:sans-serif;font-size:10px;">
+val
+</text>
+<rect x="0.0" y="124.0" width="63.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="2" y="133" style="font-family:sans-serif;font-size:10px;">
+dimension
+</text>
+<rect x="402.5" y="31.0" width="26.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="404" y="40" style="font-family:sans-serif;font-size:10px;">
+stat
+</text>
+<rect x="151.0" y="124.0" width="36.0" height="14.0" style="fill:orange; stroke:rgb(0,0,0);" rx="1"/>
+<text x="153" y="133" style="font-family:sans-serif;font-size:10px;">
+NMEC
+</text>
+</svg>

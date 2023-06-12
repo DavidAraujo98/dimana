@@ -1,0 +1,6 @@
+# Example used just to test the attributions of expressions (not implemented in compilers)
+
+bool run;
+run = true;
+
+bool another = run == true || run == false;

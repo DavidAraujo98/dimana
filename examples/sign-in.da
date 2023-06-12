@@ -1,0 +1,10 @@
+integer user = 0;
+integer iter;
+string passw = "";
+
+writeln "Please input user and password to sign-in";
+
+for iter = 0 to (user != 1234 || passw != "batatas") do
+    user = integer(read "User: ");
+    passw = read "Password: ";
+end;

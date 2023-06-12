@@ -1,0 +1,12 @@
+dimension real Length [meter,m];
+dimension real Time [second,s];
+dimension real Mass [gram,g];
+
+unit Length [inch,in] = 0.0254*meter;
+unit Length [dmeter, dm] = 0.1*meter;
+unit Length [cmeter, cm] = 0.1*dmeter;
+unit Length [mmeter, mm] = 0.1*cmeter;
+
+dimension real Velocity = Length/Time;
+dimension real Acceleration = Velocity/Time;
+dimension real Force[newton, N] = Mass*Acceleration;

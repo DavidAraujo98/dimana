@@ -1,0 +1,22 @@
+dimension real Length [meter,m];
+dimension real Time [second,s];
+dimension real Velocity = Length/Time;
+dimension real Acceleration = Velocity/Time;
+
+unit Length [inch,in] = 0.0254*meter;
+
+Length l;
+Acceleration a;
+
+Time t = 4 * second;
+l = 10; # Error
+a = l/t # Error
+l = 10 * meter;
+
+Acceleration a = (l/t)/t;
+Velocity v = l/t;
+
+writeln "Velocity: ", v;
+
+dimension real Distance = Length * Time;
+Distance d = v *t^2;

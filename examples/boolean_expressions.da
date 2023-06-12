@@ -1,0 +1,13 @@
+# Example to test the use of conditional expressions (not implemented in compiler)
+
+bool run;
+run = true;
+
+integer i;
+i = 1;
+
+use "sign-in.da";
+
+if(run == true && i == 1) then
+   writeln "Logged In";
+fi;  

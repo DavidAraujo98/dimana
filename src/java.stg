@@ -1,0 +1,122 @@
+// dictionaries: allows simple translations
+
+booleanValue ::= [
+   "true":"true",
+   "false":"false",
+   default:"null"
+]
+
+typeValue ::= [
+   "integer":"int",
+   "real":"double",
+   "bool":"boolean",
+   "string":"String",
+   default:"null"
+]
+
+ClassValue ::= [
+   "integer":"Integer",
+   "real":"Double",
+   "string":"String",
+   default:"null"
+]
+
+typeFormat ::= [
+   "integer":"",
+   "real":"",
+   "bool":"",
+   default:"null"
+]
+
+
+// templates:
+
+module(name,stat) ::= <<
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class <name> {
+   private static final Scanner sc = new Scanner(System.in);
+
+   public static void main(String[] args) {
+      <stats(stat)>
+   }
+}
+
+>>
+
+stats(stat) ::= <<
+<if(stat)><stat; separator="\n"><endif>
+>>
+
+assign(stat,var,value) ::= <<
+<stats(stat)>
+<var> = <value>;
+>>
+
+init(value) ::= "<if(value)> = <value><endif>"
+
+decl(type,var,value) ::= "<typeValue.(type)> <var><init(value)>;"
+
+decl2(stat,type,var,value) ::= <<
+<stats(stat)>
+<decl(type,var,value)>
+>>
+
+stringFormat(stat,var,text,alignment) ::= <<
+<stats(stat)>
+String <var> = String.format("%<alignment>s", <text>);
+>>
+
+show(stat,expr,endl) ::= <<
+<stats(stat)>
+System.out.print(<expr><if(endl)><endl><endif>);
+>>
+
+read(var,text) ::= <<
+System.out.print(<text>);
+String <var> = sc.nextLine();
+>>
+
+conditional(stat,var,stat_true,stat_false) ::= <<
+<stats(stat)>
+if (<var>) {
+   <stat_true>
+}<if(stat_false)>
+else {
+   <stat_false>
+}<endif>
+>>
+
+forLoop(pre,var,max,stat) ::= <<
+<stats(pre)>
+for(;<var>\<=<max> ;<var>++) {
+   <stats(stat)>
+}
+>>
+
+listAppend(stat,var,value) ::= <<
+<stats(stat)>
+<var>.add(<value>);
+>>
+
+binaryExpression(stat,type,var,e1,op,e2) ::= <<
+<stats(stat)>
+<decl(type,var,[e1," ",op," ",e2])>
+>>
+
+
+powerTypeCast ::= [
+   "integer":"(int)",
+   "real":"",
+   default:"null"
+]
+
+powerExpression(type,var,e1,e2) ::= "<decl(type,var,[powerTypeCast.(type),\"Math.pow(\",e1,\",\",e2,\")\"])>"
+
+literalBoolean(value) ::= "<booleanValue.(value)>"
+
+declArrayList(stat,type,var,value) ::= <<
+<if(stat)><stats(stat)><endif>
+ArrayList\<<ClassValue.(type)>\> <var><if(value)> = new ArrayList\<\>()<endif>;
+>>

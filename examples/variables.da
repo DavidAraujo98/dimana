@@ -1,0 +1,20 @@
+use "dimensions.da";
+
+Length l;
+Time t;
+Velocity v;
+
+list[Length] lengths = new list[Length];
+15*meter >> lengths;
+10*cmeter >> lengths;
+150*mmeter >> lengths;
+1*dmeter >> lengths;
+
+l = 50*inch;
+l = 5*meter;
+t = 2*second;
+
+v = l/t;
+Acceleration ac = v/t;
+
+writeln "Velocity: ", v, " Acceleration: ", ac; # Velocity: 2.5m/s Acceleration: 1.25m/s/s

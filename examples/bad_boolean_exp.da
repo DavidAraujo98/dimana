@@ -1,0 +1,7 @@
+# this example should fail
+
+bool run = true;
+
+if(run == true && 123) then
+   writeln "Logged In";
+fi;  
